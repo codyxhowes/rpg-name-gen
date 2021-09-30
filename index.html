@@ -5,23 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RPG Name Generator</title>
 </head>
 <body>
     <div class="container">
-        <div>
+        <div class="title">
             <h1>RPG Name Generator</h1>
         </div>
         <div class="buttons">
-            <button class="first-name">First Name Male</button>
-            <button class="first-name">First Name Female</button>
-            <button class="last-name">Last Name</button>
+            <button class="first-name-male" value="Search" onclick="GetMaleValue();">First Name Male</button>
+
+            <button class="first-name-female" value="Search" onclick="GetFemaleValue();">First Name Female</button>
+            <button class="last-name" value="Search" onclick="GetLastValue();">Last Name</button>
         </div>
         <div class="name-block">
-            <p class="character-name">First name</p>
+            <p id="character-first-name">First name</p>
         </div>
         <div class="name-block">
-            <p class="character-name">Last name</p>
+            <p id="character-last-name">Last name</p>
         </div>
     </div>
 
