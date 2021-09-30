@@ -5,16 +5,14 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
 }
-
+/*heading*/
 h1 {
     display: flex;
     justify-content: center;
     margin: 50px;
 }
-
+/*the app container*/
 .container {
     background-image: url(/home/cody/Pictures/istockphoto-1051635112-612x612.jpg);
     border: 3px solid black;
@@ -25,7 +23,7 @@ h1 {
     height: 500px;
     margin-top: 100px;
 }
-
+/*buttons that create names*/
 .buttons {
     display: flex;
     justify-content: center;
@@ -76,7 +74,7 @@ h1 {
 .last-name:hover {
 	background-color:#eb958f;
 }
-
+/*output name text*/
 .name-block {
     background: rgb(255, 255, 255);
     display: flex;
