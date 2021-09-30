@@ -81,6 +81,7 @@ text-align: center;
 .last-name:hover {
 	background-color:rgb(255, 201, 101);
 }
+
 /*output name text*/
 .name-block {
     background: rgb(255, 255, 255);
