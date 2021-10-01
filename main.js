@@ -1,6 +1,6 @@
-const maleFirstNames = ["Delorin","Weston","Grul","Oregar","Loremar","Garrick","Braeden","Krahl","Raygar","Barret","Aremore","Fyn"]
+const maleFirstNames = ["Delorin","Weston","Grul","Oregar","Loremar","Garrick","Braeden","Krahl","Raygar","Barret","Aremore","Fyn","Lothek","Vosh","Agramar","Daveth","Tyrael"]
 
-const femaleFirstNames = ["Teralyn","Krella","Xenith","Raelia","Korina","Ellen","Vella", "Lidia","Varesa","Eliza","Marcelin","Jesia"]
+const femaleFirstNames = ["Teralyn","Krella","Xenith","Raelia","Korina","Ellen","Vella", "Lidia","Varesa","Eliza","Marcelin","Jesia","Tessa","Aralyn","Jayna",]
 
 const lastNames = ["Vangrave","Moonshadow","Arrin","Farplain","Theolus","Grenn","Rainsong","Hathbrok","Graves","Doregan","Fen","Embermoore"]
 
