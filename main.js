@@ -1,27 +1,34 @@
+const maleFirstNames = ["Delorin","Weston","Grul","Oregar","Loremar","Garrick","Braeden","Krahl","Raygar","Barret","Aremore","Fyn"]
 
-//for male first name//
-function GetMaleValue()
-{
-    var myarray= new Array("Delorin","Weston","Grul","Oregar","Loremar","Garrick","Braeden","Krahl","Raygar","Barret","Aremore","Fyn");
-    var random = myarray[Math.floor(Math.random() * myarray.length)];
-    //alert(random);
-    document.getElementById("character-first-name").innerHTML=random;
+const femaleFirstNames = ["Teralyn","Krella","Xenith","Raelia","Korina","Ellen","Vella", "Lidia","Varesa","Eliza","Marcelin","Jesia"]
+
+const lastNames = ["Vangrave","Moonshadow","Arrin","Farplain","Theolus","Grenn","Rainsong","Hathbrok","Graves","Doregan","Fen","Embermoore"]
+
+const firstNameElement = document.getElementById("character-first-name")
+const lastNameElement = document.getElementById("character-last-name")
+
+function getRandomArrayItem(array) {
+  const index = Math.floor(Math.random() * array.length)
+  return array[index]
 }
 
-//for female first name//
-function GetFemaleValue()
+// for male first name
+function SetMaleValue()
 {
-    var myarray= new Array("Teralyn","Krella","Xenith","Raelia","Korina","Ellen","Vella", "Lidia","Varesa","Eliza","Marcelin","Jesia");
-    var random = myarray[Math.floor(Math.random() * myarray.length)];
-    //alert(random);
-    document.getElementById("character-first-name").innerHTML=random;
+  const name = getRandomArrayItem(maleFirstNames)
+  firstNameElement.innerText = name
 }
 
-//for last name//
-function GetLastValue()
+//for female first name
+function SetFemaleValue()
 {
-    var myarray= new Array("Vangrave","Moonshadow","Arrin","Farplain","Theolus","Grenn","Rainsong","Hathbrok","Graves","Doregan","Fen","Embermoore");
-    var random = myarray[Math.floor(Math.random() * myarray.length)];
-    //alert(random);
-    document.getElementById("character-last-name").innerHTML=random;
+    const name = getRandomArrayItem(femaleFirstNames)
+    firstNameElement.innerText = name
+}
+
+// for last name//
+function SetLastValue()
+{
+    const name = getRandomArrayItem(lastNames)
+    lastNameElement.innerText = name
 }
