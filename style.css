@@ -1,6 +1,6 @@
 body {
     font-family: Noto Sans, sans-serif;
-    background: gray;
+    background: #40404f;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -9,8 +9,8 @@ body {
 /*heading*/
 h1 {
 color: orange;
-margin-top: 50px;
-margin-bottom: 50px;
+margin-top: 70px;
+margin-bottom: 25px;
 text-align: center;
 }
 
@@ -18,18 +18,22 @@ text-align: center;
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 20px;
-    background: black;
+    margin-bottom: 5px;
     text-align: center;
+    border-radius: 50px;
 }
 /*the app container*/
 .container {
-    background-color: rgb(44, 44, 44);
+    /*background-color: rgb(146, 146, 146);*/
     background-size: cover;
     margin: auto;
     width: min(70%, 500px);
     height: 500px;
     margin-top: 100px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #444455, #3a3a47);
+    box-shadow:  20px 20px 60px #26262f,
+             -20px -20px 60px #5a5a6f;
 }
 /*buttons that create names*/
 .buttons {
@@ -38,6 +42,7 @@ text-align: center;
     flex-direction: column;
     margin-left: 50px;
     margin-right: 50px;
+    
 
 }
 
@@ -49,6 +54,7 @@ text-align: center;
     cursor:pointer;
     padding:13px 33px;
     text-align: center;
+    border-radius: 50px;
 }
 
 .first-name-male:hover {
@@ -63,6 +69,7 @@ text-align: center;
     cursor:pointer;
     padding:13px 33px;
     text-align: center;
+    border-radius: 50px;
 }
 
 .first-name-female:hover {
@@ -76,6 +83,7 @@ text-align: center;
     cursor:pointer;
     padding:13px 33px;
     text-align: center;
+    border-radius: 50px;
 }
 
 .last-name:hover {
